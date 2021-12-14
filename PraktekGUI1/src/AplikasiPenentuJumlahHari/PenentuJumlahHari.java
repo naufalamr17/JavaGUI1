@@ -263,6 +263,7 @@ public class PenentuJumlahHari extends javax.swing.JFrame {
     private void btnSimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSimpanActionPerformed
         // TODO add your handling code here:
         try {
+            // Samain sama alamat path buat nyimpen filenya di laptop kalian
             try (BufferedWriter out = new BufferedWriter(new FileWriter("C:\\Users\\Ammar\\Documents\\Naufal Ammar\\Naufal\\Ammar\\KULIAH\\Smt 3\\PBO\\Pert10\\Praktek\\PraktekGUI1\\printJumlahHari\\jumlah hari.txt"))) {
                 out.write(jLabel3.getText());
                 JOptionPane.showMessageDialog(null, "Berhasil disimpan dalam file");
